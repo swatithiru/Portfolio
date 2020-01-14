@@ -1,0 +1,1901 @@
+.indexbody {
+  margin:0;
+  padding:0;
+  font-family: roboto;
+  color: #777777;
+  background-color: #FFFFFF; 
+}
+#rajdhani {
+    font-family: Rajdhani;
+    color: #000000;
+}
+#wrapper{
+	width:80%;
+	margin:auto;
+}
+
+.fontbody{
+	font-family: roboto;
+	color: #777777;
+}
+.popup #log {
+	color: #777777;
+	
+	text-align: left;
+	margin-top: -10px;
+}
+
+#centereddiv {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+	
+* {
+  box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6
+{
+	font-family: Rajdhani;
+}
+
+#arrowbutton {
+	height: 40px;
+	width: 40px;
+	margin-right:5px;
+	
+	text-align: right;
+	vertical-align: bottom;
+	display: block;
+	}
+
+/* Create two unequal columns that floats next to each other */
+.col {
+  float: left;
+  padding: 2px;
+  height: 100vh /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 20%;
+  background-color:#2f3742;
+  color : #777777;
+}
+
+.right {
+  width: 80%;
+  color: #777777;
+  
+  font-family: Roboto;
+  background: url('../images/ziczag.jpg');
+  background-size: cover;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  overflow: hidden;
+}
+.btn-group button {
+  background-color: #3046fc;
+  color: white;
+  background-size: 200% auto; 
+  padding: 0px 35px; 
+  border: none;
+  outline: none;
+  font-size: 15px;
+  height: 3.5vh;
+  
+
+}
+.normalindex{
+	display: block;
+	font-size:29px;
+	text-transform: uppercase;
+    /*width:50%;*/
+}
+.main_title{
+	font-size:57px;
+	text-transform: uppercase;
+    /*width:70%;*/
+}
+.gradientbutton{
+	background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+	background-size: 200% auto;
+	padding: 0px 35px;
+	color:#777777;
+	height: 5vh;
+}
+a:link {
+  text-decoration: none;
+  color: #777777;
+  font-weight: bold;
+}
+
+a:visited {
+  color: #777777
+}
+
+a:hover {
+  color: #3046fc;
+}
+
+a:active {
+  text-decoration: underline;
+  color: #777777
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.center1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.bottom {
+	position: fixed;
+	bottom:8px;
+	left:16px;
+	font-size:18px;
+}
+.footer{    
+       text-align: center;    
+       bottom: 0px;	   
+	   font-size: .70 em;
+	   font-style: italic;
+	   margin-left: -10px;
+	   color: #777777;
+	   
+   } 
+#heading { color: #FFFFFF; }
+	
+.container { 
+  height: 200px;
+  position: relative;
+}
+.normalindex{
+	display: block;
+	font-size:28px;
+    width:50%;
+}
+.main_title{
+    font-size:49px;
+    border:none;
+    width: 50%;
+    font-weight:bold;
+}
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 160%;
+  margin-left: 50px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.contain {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	
+}
+.containsignup {
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	
+}
+.popup {
+	background: rgba(0, 0, 0, 0);
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	top: -50px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+}
+.popupsignup {
+	background: rgba(0, 0, 0, 0);
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+}
+.popup-content {
+	height:280px;
+	width: 500px;
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	text-align : left;
+	position: relative;
+	color: black;
+}
+.popupsignup-content {
+	height:600px;
+	width: 500px;
+	background: #fff;
+	padding: 20px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	position: relative;
+	text-align : left;
+	color: #777777;
+}
+.signinpind
+{
+	text-align:left;
+}
+.signinin {
+	
+	display: block;
+	width: 100%;
+	margin: 20px auto;
+	border-radius: 5px;
+	margin: 5px !important;
+	border: 1px solid #C0C0C0;
+
+}
+
+input {
+	
+	padding: 8px;
+	display: block;
+	width: 100%;
+	margin: 20px auto;
+	border-radius: 5px;
+	margin: 5px !important;
+	border: 1px solid #C0C0C0;
+
+}
+.close {
+	position: absolute;
+	margin-right:5px;
+	top: 15px;
+	right: 5px;
+	background: #C0C0C0;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	box-shadow: 6px 6px 29 px -4px rgba(0,0,0,0.75);
+	cursor: pointer;
+}
+.closesignup {
+	position: absolute;
+	margin-right:5px;
+	top: 15px;
+	right: 5px;
+	background: #C0C0C0;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	box-shadow: 6px 6px 29 px -4px rgba(0,0,0,0.75);
+	cursor: pointer;
+}
+.buttonlogin {
+	background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+	background-size: 200% auto;
+	padding: 0px 35px;
+	color:#777777;
+	font-weight: bold;
+	font-size: 15px;
+	border-radius: 2px;
+	box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+	text-decoration: none;
+	transition: 0.4s;
+	text-align: right;
+	margin-left: 5px;
+}
+.buttonsignup {
+	background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+	background-size: 200% auto;
+	padding: 0px 35px;
+	color:#777777;
+	font-weight: bold;
+	font-size: 17px;
+	border-radius: 2px;
+	box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+	text-decoration: none;
+	transition: 0.4s;
+	text-align: right;
+	margin-left: 5px;
+}
+.buttoncancel {
+	background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+	background-size: 200% auto;
+	padding: 0px 35px;
+	color:#777777;
+	font-weight: bold;
+	font-size: 15px;
+	border-radius: 2px;
+	box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+	text-decoration: none;
+	transition: 0.4s;
+	text-align: right;
+}
+.bu {
+	
+	color: #ffffff;
+	font-weight: bolder;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: 0.4s;
+}
+.disabled {
+    pointer-events: none;
+    cursor: default;
+    color: #ffffff;
+	font-weight: bolder;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: 0.4s;
+}
+
+#labeluser {
+	font-weight: bold;
+	color: #777777;
+	
+}
+.divspace {
+	display: block;
+	padding: 5px;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+#signupusername {
+	display: block;
+	padding: 1px;
+	margin-bottom: 10px;
+	text-align: justify;
+	margin-left: -10px;
+}
+#signuplastname {
+	display: block;
+	padding: 1px;
+	margin-bottom: 10px;
+	text-align: justify;
+	margin-left: -10px;
+}
+#signupemail {
+	display: block;
+	padding: 1px;
+	margin-bottom: 10px;
+	text-align: justify;
+	margin-left: -10px;
+}
+#signupuser {
+	display: block;
+	padding: 1px;
+	margin-bottom: 10px;
+	text-align: justify;
+	margin-left: -10px;
+}
+#signuppassword {
+	display: block;
+	padding: 1px;
+	margin-bottom: 10px;
+	text-align: justify;
+	margin-left: -10px;
+}
+#signupconfirmpassword {
+	display: block;
+	padding: 1px;
+	text-align: justify;
+	margin-left: -10px;
+}
+.hr-line {
+	position: relative;
+	left: -15px;
+	width: calc(100% + 30px);
+	height: 1px;
+	border: none;
+	background: silver;
+}
+.navbar {
+	float: left;
+	margin-top: 5px;
+
+
+}
+.navbar ul li {
+	padding: 12px;
+	margin-left:-20px;
+	margin-top: 4px;
+	list-style-type: none;
+	}
+
+.logo {
+		margin-top: 10px;
+	}
+	.overflow {
+	overflow: hidden;
+	}
+
+
+
+/*aboutme*/
+.aboutmeabt {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	color: #000033
+}
+.headertextcolor{
+	background-color: #000033;
+	color: #;
+}
+hr {
+	flex: 1;
+	border: none;
+	height: 1px;
+	background: silver;
+	
+}
+button {
+	color:#777777;
+	border: 1px solid #0000ff;
+	background-color: #FFFFFF;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.colabt {
+  float: left;
+  padding: 10px;
+  height: 100% ; /* Should be removed. Only for demonstration */
+}
+.columnabt {
+  float: left;
+  padding: 10px;
+  height: 30vh ; /* Should be removed. Only for demonstration */
+}
+.lefabt {
+	width: 50%
+}
+.rigabt {
+	width: 50%
+}
+
+.leftabt {
+  width: 15%;
+  
+}
+
+.rightabt {
+  width: 85%;
+  color: #777777;
+  font-family: Roboto;
+  background-color: #FFFFFF;
+  margin-top: 35px;
+}
+
+/* Clear floats after the columns */
+.rowabt:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.btn-groupabt button {
+  background-color: #0000FF;
+  color: white;
+  background-size: 200% auto; 
+  padding: 0px 35px; 
+  border: none;
+  outline: none;
+  font-size: 15px;
+  height: 3.5vh;
+  
+
+}
+
+
+a:link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3046fc;
+}
+
+a:active {
+  text-decoration: underline;
+}
+.centerabt {
+  display: block;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+#para {
+	text-align: center;
+}
+.displayimageabt
+{
+	display: block;
+	margin-top: 40px;
+	height: 30vh;
+	width:100%;
+}
+ .imgabt {
+	height: 40px;
+	width: 40px;
+	margin-right:5px;
+	vertical-align: bottom;
+	display: block;
+}
+.signabt {
+	height: 50px;
+	width: 150px;
+	margin-right:5px;
+	vertical-align: bottom;
+	display: block;
+}
+p {
+	display: inline;
+}
+
+.center1abt {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.containerabt {
+	position: relative;
+}
+.bottomabt {
+	position: absolute;
+	bottom:8px;
+	left:16px;
+	font-size:18px;
+}
+.footerabt{ 
+       position: fixed;     
+       text-align: left;    
+       bottom: 0px;
+	   margin-left: 10px;	   
+       width: 10%;
+	   font-size: .70 em;
+	   font-style: italic;
+	   color: white;
+	   
+   } 
+#heading { color: #FFFFFF; }
+	
+.containerabt { 
+  height: 200px;
+  position: relative;
+}
+
+.vertical-centerabt {
+  margin: 0;
+  position: absolute;
+  top: 160%;
+  margin-left: 50px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.leftdivabt {
+	width:100%
+	float: left;
+	padding: 10px;
+}
+#rightdivabt {
+	width:50%
+	float: right;
+	padding: 10px;
+}
+.contentabt {
+	margin-top: 30px;
+}
+i {
+	
+}
+
+/*resume*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.columnres {
+  float: left;
+  width: 50%;
+  padding: 30px;
+  height: 100%;
+  margin-top: 30px;
+  margin-right: 0px;
+  text-align: center; 
+  border-radius: 5px;  /* Should be removed. Only for demonstration */
+}
+.first-columnres {
+	width: 42%;
+    padding: 50px;
+	margin-left: 50px;
+	margin-top: 20px;
+    float: left;
+}
+.second-columnres {
+    width: 2%;
+    padding: 0px;
+	margin-right:-25px;
+	margin-top: 20px;
+    float: left;
+    
+}
+
+.third-columnres {
+    width: 42%;
+    padding: 50px;
+	margin-top: 20px;
+	margin-left: 50px;
+    float: left;
+}
+
+
+/* Clear floats after the columns */
+.rowres:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+	.aboutmeres {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	}
+	hr {
+	flex: 1;
+	border: none;
+	height: 1px;
+	background: silver;
+	
+	}
+	button {
+	border: 1px solid #0000ff;
+	background-color: white;
+	font-size: 16px;
+	text-align: center;
+	font-family: "Roboto";
+}
+.buttonsignupres {
+	background: #0000FF;
+	padding: 5px 5px;
+	font-weight: bold;
+	color: white;
+	font-size: 16px;
+	border-radius: 2px;
+	box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+	margin-top: 30px;
+	text-decoration: none;
+	transition: 0.4s;
+	text-align: right;
+	margin-left: 5px;
+}
+.contactusres {
+	align: center;
+	margin-top: 5px;
+}
+#service {
+	text-align: center;
+	margin-top: 10px;
+}
+#line {
+	width: 1px;
+	height: 9vh;
+	background: silver;
+	border: 1.5px solid silver;
+}
+
+.companyres
+{
+    background-color: #4b4fe2;
+	position: relative;
+    border-radius: 0px;
+	height: 55px;
+	text-align: left;
+	padding: 15px 15px;
+	margin-left: 15px;
+	width: 90%;
+	margin-top: 15px;
+	color: white;
+	font-weight: bold;
+	font-family: Roboto;
+	
+}
+.company1res
+{
+    background-color: #4b4fe2;
+	position: relative;
+    border-radius: 0px;
+	height: 55px;
+	text-align: left;
+	padding: 15px 15px;
+	margin-left: 15px;
+	width: 90%;
+	margin-top: 15px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: Roboto;
+	
+}
+.company1res::after {
+content: "";
+position: absolute;
+right: -15px;
+top: 15px;
+width: 0;
+height: 0;
+border-top: 8px solid transparent;
+border-bottom: 8px solid transparent;
+border-left: 15px solid #4b4fe2;
+}
+
+.companyres::before {
+content: "";
+position: absolute;
+left: -15px;
+top: 15px;
+width: 0;
+height: 0;
+border-top: 8px solid transparent;
+border-bottom: 8px solid transparent;
+border-right: 15px solid #4b4fe2;
+}
+
+
+.roleres
+{
+    padding: 0.lem 16px;
+    border-radius: 0px;
+    color: #fff;
+	margin-left: 15px;
+	height: 60px;
+	padding: 15px 15px;
+	width: 90%;
+	text-align: left;
+    background-color: #f5f5f5;
+	color: #777777;
+	font-weight: bold;
+	font-family: Roboto;
+	
+}
+.role1res
+{
+    padding: 0.lem 16px;
+    border-radius: 0px;
+    color: #fff;
+	margin-left: 15px;
+	height: 60px;
+	padding: 15px 15px;
+	width: 90%;
+	text-align: left;
+	background-color: #f5f5f5;
+	color: #777777;
+    font-weight: bold;
+	font-family: Roboto;
+	
+}
+#yearcolor {
+	font-style: italic;
+	font-weight: bold;
+	color: #4b4fe2;
+	font-family: Roboto;
+	
+}
+
+/*portfolio*/
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.columnport {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  height: 100%;
+  margin-top: 20px;
+  text-align: center; 
+  border-bottom: 1px solid #e8e4c9;
+  border-radius: 5px;  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.rowport:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+	.aboutmeport {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	}
+	hr {
+	flex: 1;
+	border: none;
+	height: 1px;
+	background: silver;
+	
+	}
+	button {
+	border: 1px solid #0000ff;
+	background-color: #FFFFFF;
+	font-size: 16px;
+	text-align: center;
+	font-family: Roboto;
+}
+.buttonsignupport {
+	background: #0000FF;
+	padding: 5px 5px;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 16px;
+	border-radius: 2px;
+	box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+	margin-top: 30px;
+	text-decoration: none;
+	transition: 0.4s;
+	text-align: right;
+	margin-left: 5px;
+}
+.contactusport {
+	align: center;
+	margin-top: 5px;
+}
+#service {
+	text-align: center;
+	margin-top: 10px;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+.portolioa:link {
+text-decoration: none;
+color: #A9A9A9;
+}
+.portolioa:hover {
+text-decoration: none;
+color: #A9A9A9;
+}
+.allphotosport {
+text-align: center;
+margin-top: 20px;
+bottom: 0px;
+}
+
+/*hireme*/
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.columnhire {
+  float: left;
+  width: 26%;
+  padding: 25px;
+  height: 349px;
+  margin-top: 35px;
+  margin-left: 50px;
+  margin-right: 0px;
+  font-family: Roboto;
+  color: #777777;
+  text-align: center;  
+  border-bottom: 1px solid #e8e4c9;
+  border-radius: 5px;  /* Should be removed. Only for demonstration */
+}
+.colbuthire {
+  float: left;
+  width: 23.33%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 110px;
+  margin-right: 0px;
+  text-align: center; 
+}
+
+/* Clear floats after the columns */
+.rowhire:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+	.aboutmehire {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	}
+	hr {
+	flex: 1;
+	border: none;
+	height: 1px;
+	background: silver;
+	
+	}
+	button {
+	border: 1px solid #0000ff;
+	background-color: #FFFFFF;
+	font-size: 16px;
+	text-align: center;
+	font-family: Roboto;
+}
+.buttonsignuphire {
+	background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+	background-size: 200% auto;
+	padding: 0px 35px;
+	color:#777777;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 2px;
+	box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+	margin-top: 30px;
+	text-decoration: none;
+	transition: 0.4s;
+	text-align: right;
+	margin-left: 5px;
+}
+.contactushire {
+	align: center;
+	margin-top: 5px;
+}
+#servicehire {
+	text-align: center;
+	margin-top: 7.5px;
+}
+#servicehirehide {
+	text-align: center;
+	margin-top: 8px;
+	visibility: hidden;
+}
+.imghire {
+	height: 150px;
+	width: 100%;
+	margin-right:5px;
+	vertical-align: bottom;
+	display: block;
+}
+/*contactme*/
+.inputcon {
+	
+	padding: 8px;
+	display: block;
+	width: 100%;
+	margin: 20px auto;
+	margin: 5px !important;
+	border: 0;
+	outline: 0;
+	border-bottom: 1px solid silver;
+
+}
+textarea {
+	padding: 8px;
+	display: block;
+	width: 100%;
+	margin: 20px auto;
+	margin: 5px !important;
+	border: 0;
+	outline: 0;
+	border-bottom: 1px solid silver;
+}
+.bg-stylecon {
+  padding:2em;
+  }
+.aboutmecon {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+hr {
+	flex: 1;
+	border: none;
+	height: 1px;
+	background: silver;
+	
+}
+button {
+	border: 1px solid #0000ff;
+	background-color: #FFFFFF;
+	font-size: 16px;
+	text-align: center;
+	
+	font-family: Roboto;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+.contactcolumncon {
+  float: left;
+  padding: 30px;
+  margin-top: 30px;
+  height: 53vh ; /* Should be removed. Only for demonstration */
+}
+
+
+.contactleftcon {
+	margin-left: 20px;
+	width: 50%
+	
+	}
+.contactrightcon {
+	width: 50%
+	margin-right: 20px;
+	
+	
+	
+}
+
+
+/* Clear floats after the columns */
+.contactrowcon:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.btn-groupcon button {
+  background-color: #0000FF;
+  color: #FFFFFF;
+  background-size: 200% auto; 
+  padding: 0px 35px; 
+  border: none;
+  outline: none;
+  font-size: 15px;
+  height: 5vh;
+  
+
+}
+
+
+a:link {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  text-decoration: underline;
+}
+.centercon {
+  display: block;
+  margin-left: 30px;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+#para {
+	text-align: center;
+}
+.displayimagecon
+{
+	display: block;
+	margin-top: 40px;
+	height: 39vh;
+	width:100%;
+}
+ .imgcon {
+	height: 25px;
+	width: 25px;
+	margin-right:10px;
+	text-align: center;
+	display: block;
+}
+.signcon {
+	height: 50px;
+	width: 150px;
+	margin-right:5px;
+	vertical-align: bottom;
+	display: block;
+}
+p {
+	display: inline;
+}
+
+
+
+.footercon{ 
+       position: fixed;     
+       text-align: left;    
+       bottom: 0px;
+	   margin-left: 10px;	   
+       width: 10%;
+	   font-size: .70 em;
+	   font-style: italic;
+	   color: #FFFFFF;
+	   
+   } 
+#heading { color: #FFFFFF; }
+	
+
+.contentcon {
+	margin-top: 30px;
+}
+
+
+#contactme {
+	display: block;
+	padding: 5px;
+	margin-bottom: 16px;
+	text-align: justify;
+	margin-left: 0px;
+}
+.buttonsignupcon {
+	background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+	background-size: 200% auto;
+	padding: 0px 35px;
+	color:#777777;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 2px;
+	box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+	margin-top: 5px;
+	text-decoration: none;
+	transition: 0.4s;
+	text-align: right;
+	margin-left: 5px;
+	height: 5vh;
+}
+#fun {
+	margin-left: 10px;
+}
+.iconsizescon {
+	margin-top: 15px;
+	margin-left: -18px;
+	padding: 25px;
+}
+
+#textcolorcon {
+	color: blue;
+}
+/*references*/
+.columnreferenceref {
+  float: left;
+  width: 23%;
+  padding: 2px;
+  height: 30vh;
+  margin-top: 60px;
+  margin-left: 90px;
+  margin-right: 0px;
+  text-align: center; 
+  border: 1px solid #e8e4c9;
+  border-radius: 10px;  /* Should be removed. Only for demonstration */
+}
+.rowreferenceref:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.displayrefimagesref {
+ width: auto;
+ height: 9vh;	
+ border-radius: 50%;
+}
+.setfontref {
+	color: gray;
+}	
+figure {
+	margin-top: -30px;
+	
+}
+figcaption {
+	margin-top: 10px;
+}
+	
+.aboutmeref {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	}
+hr {
+	flex: 1;
+	border: none;
+	height: 1px;
+	background: silver;
+	
+	}
+button {
+	border: 1px solid #0000ff;
+	background-color: #FFFFFF;
+	}
+
+.refp{
+	display: block;
+}
+
+/*skills*/
+.counter {
+  display: inline-flex;
+  cursor:pointer;
+  width:150px;
+  height:150px;
+  max-width:100%;
+  position:relative;
+  justify-content:center;
+  align-items:center;
+  font-size: calc(1em + 1vmin);
+  transition: height .2s ease-in-out;
+  background: #fff;
+  border-radius:50%;
+  margin:1em 0;
+}
+.percentage {
+  position:absolute;
+  text-align:center;
+  top:50%;
+  left:0;
+  right:0;
+  vertical-align:middle;
+  transform:translate3d(0,-50%,0);
+}
+canvas {
+  position:absolute;
+  top:0;
+  left:0;
+}
+input {
+    width: 200px;
+}
+.bg-styleskill {
+  padding:2em;
+  }
+.aboutmeskill {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+hr {
+	flex: 1;
+	border: none;
+	height: 1px;
+	background: silver;
+	
+}
+button {
+	border: 1px solid #0000ff;
+	background-color: white;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.colskill {
+  float: left;
+  padding: 10px;
+  height: 100vh ; /* Should be removed. Only for demonstration */
+}
+.columnskill {
+  float: left;
+  padding: 30px;
+  margin-top: 30px;
+  height: 30vh ; /* Should be removed. Only for demonstration */
+}
+.circle {
+  float: center;
+  padding: 10px;
+  margin-top: 30px;
+  margin-left: 10px;
+  height: 30vh ; /* Should be removed. Only for demonstration */
+}
+
+.lefskill {
+	width: 50%
+	
+	}
+.rigskill {
+	width: 50%
+	
+	
+	
+}
+
+.leftskill {
+  width: 15%;
+  
+}
+
+.rightskill {
+  width: 85%;
+  color: black;
+  font-family: Roboto;
+  background-color: #FFFFFF;
+  margin-top: 35px;
+}
+
+/* Clear floats after the columns */
+.rowskill:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.btn-groupskill button {
+  background-color: #0000FF;
+  color: white;
+  background-size: 200% auto; 
+  padding: 0px 35px; 
+  border: none;
+  outline: none;
+  font-size: 15px;
+  height: 3.5vh;
+  
+
+}
+
+
+a:link {
+  text-decoration: none;
+  color: #777777;
+  font-weight: bold;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  text-decoration: underline;
+}
+.centerskill {
+  display: block;
+  margin-left: 30px;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+#para {
+	text-align: center;
+}
+.displayimageskill
+{
+	display: block;
+	margin-top: 40px;
+	height: 39vh;
+	width:100%;
+}
+ .imgskill {
+	height: 40px;
+	width: 40px;
+	margin-right:5px;
+	vertical-align: bottom;
+	display: block;
+}
+.signskill {
+	height: 50px;
+	width: 150px;
+	margin-right:5px;
+	vertical-align: bottom;
+	display: block;
+}
+p {
+	display: inline;
+}
+
+.center1skill {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.containerskill {
+	position: relative;
+}
+.bottomskill {
+	position: absolute;
+	bottom:8px;
+	left:16px;
+	font-size:18px;
+}
+.footerskill{ 
+       position: fixed;     
+       text-align: left;    
+       bottom: 0px;
+	   margin-left: 10px;	   
+       width: 10%;
+	   font-size: .70 em;
+	   font-style: italic;
+	   color: #FFFFFF;
+	   
+   } 
+#heading { color: #FFFFFF; }
+	
+.containerskill { 
+  height: 200px;
+  position: relative;
+}
+
+.vertical-centerskill {
+  margin: 0;
+  position: absolute;
+  top: 160%;
+  margin-left: 50px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.leftdivskill {
+	width:100%
+	float: left;
+	padding: 10px;
+}
+#rightdivskill {
+	width:50%
+	float: right;
+	padding: 10px;
+}
+.contentskill {
+	margin-top: 30px;
+}
+#market {
+	
+}
+.progress-bar
+{
+    padding: 0.lem 16px;
+    border-radius: 0px;
+    color: #fff;
+	height: 25px;
+    background-color: #4b4fe2;
+	
+}
+
+.progress-bar1
+{
+    padding: 0.lem 16px;
+    border-radius: 0px;
+    color: #fff;
+	height: 25px;
+    background-color: #008000;
+	
+}
+.progress-bar2
+{
+    padding: 0.lem 16px;
+    border-radius: 0px;
+    color: #fff;
+	height: 25px;
+    background-color: #00FFFF;
+	
+}
+.progress-bar3
+{
+    padding: 0.lem 16px;
+    border-radius: 0px;
+    color: #fff;
+	height: 25px;
+    background-color: #FFA500;
+	
+}
+.completion-bar
+{
+    background-color: #f5f5f5;
+    border-radius: 0px;
+	height: 25px;
+	margin-top: 15px;
+	
+}
+.progress_value{
+        		position: relative;
+        		float: right;
+        		padding-right: 1px;
+        		line-height: 2.5;
+        		font-weight: bolder;
+				font-size: 16px;
+        		color: #455a64;
+        		margin-top: -33px;
+				margin-right: 0px;
+        	}
+td {
+	text-align: center;
+	margin-top: 10px;
+}
+#markettitle {
+margin-top: -10px;
+}
+ i {
+margin-left: 5px;
+margin-top: 5px;
+}
+
+@media screen and (max-width: 680px){
+    
+body {
+  margin:0;
+  padding:0;
+  font-family: roboto;
+  color: #777777;
+  background-color: #FFFFFF; 
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.col {
+  float: left;
+  padding: 2px;
+   /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 34%;
+}
+
+.right {
+  width: 66%;
+  color: white;
+  
+  font-family: Roboto;
+  background-image: url('../images/ziczag.jpg');
+  background-size: cover;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  overflow: hidden;
+}
+.btn-group button {
+  background-color: #0000FF;
+  color: white;
+  background-size: 50% auto; 
+  padding: 0px 27px 3px; 
+  border: none;
+  outline: none;
+  font-size: 11px;
+  height: 4.3vh;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  text-decoration: underline;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.center1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.bottom {
+	position: fixed;
+	bottom:8px;
+	left:16px;
+	font-size:18px;
+}
+.footer{    
+       text-align: left;    
+       bottom: 0px;	   
+	   font-size: .40 em;
+	   font-style: italic;
+	   color: white;
+	   
+   } 
+#heading { color: #FFFFFF; }
+	
+.container { 
+  height: 200px;
+  position: relative;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 160%;
+  margin-left: 16px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.normalindex{
+    font-size:10px;
+    width:50%;
+    font-family: roboto;
+}
+.main_title{
+    font-size:18px;
+    border:none;
+    width: 50%;
+    font-weight:bold;
+    font-family: roboto;
+}
+.contain {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	
+}
+.containsignup {
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	
+}
+.popup {
+	background: rgba(0, 0, 0, 0);
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	top: -50px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+}
+.popupsignup {
+	background: rgba(0, 0, 0, 0);
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+}
+.popup-content {
+	height:280px;
+	width: 500px;
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+	color: black;
+}
+.popupsignup-content {
+	height:600px;
+	width: 500px;
+	background: #fff;
+	padding: 20px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	position: relative;
+	color: black;
+}
+input {
+	
+	padding: 8px;
+	display: block;
+	width: 100%;
+	margin: 20px auto;
+	border-radius: 5px;
+	margin: 5px !important;
+	border: 1px solid #C0C0C0;
+
+}
+.close {
+	position: absolute;
+	margin-right:5px;
+	top: 5px;
+	right: 5px;
+	background: #C0C0C0;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	box-shadow: 6px 6px 29 px -4px rgba(0,0,0,0.75);
+	cursor: pointer;
+}
+.closesignup {
+	position: absolute;
+	margin-right:5px;
+	top: 5px;
+	right: 5px;
+	background: #C0C0C0;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	box-shadow: 6px 6px 29 px -4px rgba(0,0,0,0.75);
+	cursor: pointer;
+}
+.buttonlogin {
+	background: #0000FF;
+	padding: 5px 5px;
+	font-weight: bold;
+	color: white;
+	font-size: 15px;
+	border-radius: 2px;
+	box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+	margin-top: 30px;
+	text-decoration: none;
+	transition: 0.4s;
+	text-align: right;
+	margin-left: 5px;
+}
+.buttonsignup {
+	background: #0000FF;
+	padding: 5px 5px;
+	font-weight: bold;
+	color: white;
+	font-size: 17px;
+	border-radius: 2px;
+	box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+	margin-top: 30px;
+	text-decoration: none;
+	transition: 0.4s;
+	text-align: right;
+	margin-left: 5px;
+}
+.buttoncancel {
+	background: #C0C0C0;
+	padding: 5px 5px;
+	font-weight: bold;
+	color: #808080;
+	font-size: 17px;
+	border-radius: 2px;
+	box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+	margin-top: 30px;
+	text-decoration: none;
+	transition: 0.4s;
+	text-align: right;
+}
+.bu {
+	font-size:11px;
+	color: #ffffff;
+	font-weight: bolder;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: 0.4s;
+}
+#log {
+	color: #696969;
+	text-align: left;
+	margin-top: -10px;
+}
+#labeluser {
+	font-weight: bold;
+	
+}
+.divspace {
+	display: block;
+	padding: 5px;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+#signupusername {
+	display: block;
+	padding: 1px;
+	margin-bottom: 10px;
+	text-align: justify;
+	margin-left: -10px;
+}
+#signuplastname {
+	display: block;
+	padding: 1px;
+	margin-bottom: 10px;
+	text-align: justify;
+	margin-left: -10px;
+}
+#signupemail {
+	display: block;
+	padding: 1px;
+	margin-bottom: 10px;
+	text-align: justify;
+	margin-left: -10px;
+}
+#signupuser {
+	display: block;
+	padding: 1px;
+	margin-bottom: 10px;
+	text-align: justify;
+	margin-left: -10px;
+}
+#signuppassword {
+	display: block;
+	padding: 1px;
+	margin-bottom: 10px;
+	text-align: justify;
+	margin-left: -10px;
+}
+#signupconfirmpassword {
+	display: block;
+	padding: 1px;
+	text-align: justify;
+	margin-left: -10px;
+}
+.hr-line {
+	position: relative;
+	left: -15px;
+	width: calc(100% + 30px);
+	height: 1px;
+	border: none;
+	background: silver;
+}
+.navbar {
+	float: left;
+	margin-top: 5px;
+	width: 100%;
+	height:auto;
+
+
+}
+.navbar ul li {
+	padding: 13px;
+	margin-left:-20px;
+	list-style-type: none;
+	width:100%;
+	}
+
+.logo {
+		margin-top: 10px;
+		
+	}
+	.overflow {
+	overflow: hidden;
+	}
+}
